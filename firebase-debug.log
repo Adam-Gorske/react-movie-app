@@ -1,0 +1,96 @@
+[debug] [2022-09-17T18:04:23.875Z] ----------------------------------------------------------------------
+[debug] [2022-09-17T18:04:23.877Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\adamg\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-17T18:04:23.878Z] CLI Version:   11.9.0
+[debug] [2022-09-17T18:04:23.878Z] Platform:      win32
+[debug] [2022-09-17T18:04:23.878Z] Node Version:  v16.14.2
+[debug] [2022-09-17T18:04:23.884Z] Time:          Sat Sep 17 2022 11:04:23 GMT-0700 (Pacific Daylight Time)
+[debug] [2022-09-17T18:04:23.885Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-17T18:04:23.888Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-09-17T18:04:23.964Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-17T18:04:23.965Z] > authorizing via signed-in user (adamgorske@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\adamg\Documents\Code\Coding_Temple\self-paced\final-project\book-inventory-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2022-09-17T18:04:24.272Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-09-17T18:04:24.272Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-17T18:04:57.106Z] Using project from CLI flag: react-book-inventory-9af1f
+[debug] [2022-09-17T18:04:57.107Z] > refreshing access token with scopes: []
+[debug] [2022-09-17T18:04:57.108Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-09-17T18:04:57.108Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-17T18:04:57.415Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-09-17T18:04:57.415Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-17T18:04:57.425Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-book-inventory-9af1f [none]
+[debug] [2022-09-17T18:04:57.820Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-book-inventory-9af1f 200
+[debug] [2022-09-17T18:04:57.821Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-book-inventory-9af1f {"projectId":"react-book-inventory-9af1f","projectNumber":"68663024460","displayName":"React Book Inventory","name":"projects/react-book-inventory-9af1f","resources":{"hostingSite":"react-book-inventory-9af1f"},"state":"ACTIVE","etag":"1_ce56696c-65bb-43f0-8b68-b879056915e4"}
+[info] i  Using project react-book-inventory-9af1f (React Book Inventory) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-09-17T18:18:02.779Z] ----------------------------------------------------------------------
+[debug] [2022-09-17T18:18:02.781Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\adamg\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-17T18:18:02.781Z] CLI Version:   11.9.0
+[debug] [2022-09-17T18:18:02.781Z] Platform:      win32
+[debug] [2022-09-17T18:18:02.781Z] Node Version:  v16.14.2
+[debug] [2022-09-17T18:18:02.782Z] Time:          Sat Sep 17 2022 11:18:02 GMT-0700 (Pacific Daylight Time)
+[debug] [2022-09-17T18:18:02.783Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-17T18:18:02.846Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-17T18:18:02.846Z] > authorizing via signed-in user (adamgorske@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\adamg\Documents\Code\Coding_Temple\self-paced\final-project\book-inventory-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-17T18:18:13.546Z] Using project from CLI flag: react-book-inventory-9af1f
+[debug] [2022-09-17T18:18:13.548Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/react-book-inventory-9af1f [none]
+[debug] [2022-09-17T18:18:13.901Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/react-book-inventory-9af1f 200
+[debug] [2022-09-17T18:18:13.901Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/react-book-inventory-9af1f {"projectId":"react-book-inventory-9af1f","projectNumber":"68663024460","displayName":"React Book Inventory","name":"projects/react-book-inventory-9af1f","resources":{"hostingSite":"react-book-inventory-9af1f"},"state":"ACTIVE","etag":"1_ce56696c-65bb-43f0-8b68-b879056915e4"}
+[info] i  Using project react-book-inventory-9af1f (React Book Inventory) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
